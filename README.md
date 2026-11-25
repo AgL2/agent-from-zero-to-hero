@@ -9,7 +9,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
-**[English README →](README_EN.md)** | [📄 全书 PDF 下载](Agent从零到专家.pdf)
+**[English README →](README_EN.md)**
 
 ---
 
@@ -100,7 +100,7 @@ python >= 3.10
 pip install numpy torch transformers openai langchain chromadb matplotlib
 ```
 
-各章节代码位于 `code/` 目录，均可独立运行。
+书中所有代码均内嵌于各章节，复制即可独立运行。
 
 ## 🤝 贡献
 
