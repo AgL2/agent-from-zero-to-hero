@@ -18,7 +18,7 @@ The core belief: **Agents are the tip of a tower.** The foundation is neural net
 - 💻 **60+ runnable experiments** — every code block was actually executed; every printed output is real
 - 🔢 **Zero black boxes** — hand-compute 3×3 convolutions, derive backprop for a 2-2-1 network, hand-calculate attention weights for 3 tokens
 - 🎨 **60+ custom figures** with a consistent visual system
-- 📄 A print-ready PDF is maintained alongside the source (302 pages, A4)
+- 📄 **Full PDF included**: [Agent从零到专家.pdf](Agent从零到专家.pdf) (302 pages, A4)
 
 ## Table of Contents
 
@@ -38,7 +38,13 @@ python >= 3.10
 pip install numpy torch transformers matplotlib
 ```
 
-All experiment code is embedded inline in each chapter — copy and run. LLM-dependent examples use a **mock-LLM + real-API dual-track** design, so everything runs offline out of the box.
+All experiment code lives in [`code/`](code/), organized by chapter. LLM-dependent examples use a **mock-LLM + real-API dual-track** design, so everything runs offline out of the box.
+
+## Rebuild the PDF
+
+```bash
+./build_pdf.sh   # requires pandoc + xelatex, Chinese font PingFang SC
+```
 
 ## License
 
